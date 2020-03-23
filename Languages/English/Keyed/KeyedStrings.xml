@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- used as the default string for all these settings. -->
+	<ChickenProvisionsDefaultText>Oops! You forgot to set this!</ChickenProvisionsDefaultText>
+	<!-- Faction Relations letters -->
+	<!-- For letter labels, {0} is the colored name of the faction. -->		  
+	<RH_RelLabel_PlayerFaction_Pirate>Message from {0}</RH_RelLabel_PlayerFaction_Pirate>
+	<!-- For letter text,
+		 {0} is the title of the faction's leader,
+		 {1} is the colored name of the faction's leader,
+		 {2} is the colored name of the faction. -->
+	<RH_RelText_PlayerFaction_Pirate>You have received a message from {1}, {0} of {2}:\n\n"Hey asshole, fuck you!"\n\n{2} is now hostile.</RH_RelText_PlayerFaction_Pirate>
+	<RH_RelLabel_PlayerFaction_TribeCivil>Message from {0}</RH_RelLabel_PlayerFaction_TribeCivil>
+	<RH_RelText_PlayerFaction_TribeCivil>You receive a smoke signal from afar, apparently sent by {2}. It signals a cryptic greeting.\n\nYour relations with {2} have improved.</RH_RelText_PlayerFaction_TribeCivil>
+	<!-- Provisioner strings -->
+	<!-- start letter -->
+	<RH_ProLabel_PlayerFaction_Start>Provisions begin</RH_ProLabel_PlayerFaction_Start>
+	<!-- For text, {0} is the def label of the player faction. -->
+	<RH_ProText_PlayerFaction_Start>You have received a care package from {0}.</RH_ProText_PlayerFaction_Start>
+	<!-- end letter -->
+	<RH_ProLabel_PlayerFaction_End>Provisions end</RH_ProLabel_PlayerFaction_End>
+	<RH_ProText_PlayerFaction_End>You will no longer receive care packages from {0}.</RH_ProText_PlayerFaction_End>
+	<!-- drop/no drop message -->
+	<RH_ProMsg_PlayerFaction_Drop>You have received a care package from {0}.</RH_ProMsg_PlayerFaction_Drop>
+	<RH_ProMsg_PlayerFaction_NoDrop>You don't seem to have received your scheduled care package.</RH_ProMsg_PlayerFaction_NoDrop>
+</LanguageData>

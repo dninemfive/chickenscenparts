@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- You need these for some reason. You can reuse the DefNames, luckily. -->
+	<ScenPartDef>
+		<defName>ChickenScenParts_FactionRelations</defName>
+		<label>faction relations</label>
+		<scenPartClass>ChickenScenParts.ScenPart_FactionRelations</scenPartClass>
+		<category>Misc</category>
+		<selectionWeight>1.0</selectionWeight>
+		<summaryPriority>998</summaryPriority>
+		<maxUses>1</maxUses>
+    </ScenPartDef>
+	<ScenPartDef>
+		<defName>ChickenScenParts_Provisioner</defName>
+		<label>provisioner</label>
+		<scenPartClass>ChickenScenParts.ScenPart_Provisioner</scenPartClass>
+		<category>Misc</category>
+		<selectionWeight>1.0</selectionWeight>
+		<summaryPriority>999</summaryPriority>
+		<maxUses>1</maxUses>
+    </ScenPartDef>
+</Defs>

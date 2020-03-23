@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/FactionDef[defName="PlayerColony"]</xpath>
+		<value>
+			<!-- can also be added to custom FactionDefs' <modExtensions/> tag directly -->
+			<li Class="ChickenProvisions.ModExtension_Provisioner">
+				<dropIntervalDays>0.5</dropIntervalDays> <!-- float; default: 7.0 -->
+				<endAfterDays>3</endAfterDays> <!-- float; default: 30.0 -->
+				<chanceToNotDrop>0.51</chanceToNotDrop> <!-- float; default: 0.5 -->
+				<thingCounts>
+					<MedicineIndustrial>5</MedicineIndustrial>
+					<MealSurvivalPack>63</MealSurvivalPack>
+				</thingCounts>
+				<startLetterLabelKey>MSF_startLetterLabelKey</startLetterLabelKey>
+				<startLetterTextKey>MSF_startLetterTextKey</startLetterTextKey>
+				<endLetterLabelKey>MSF_endLetterLabelKey</endLetterLabelKey>
+				<endLetterTextKey>MSF_endLetterTextKey</endLetterTextKey>
+				<dropMessageKey>MSF_dropMessageKey</dropMessageKey>
+				<noDropMessageKey>MSF_noDropMessageKey</noDropMessageKey>
+				<!-- LetterDefs for the two letters can also be set with <startLetterDef/> and <endLetterDef/> (defaults: PositiveEvent, NeutralEvent) -->
+			</li>
+		</value>
+	</Operation>
+</Patch>

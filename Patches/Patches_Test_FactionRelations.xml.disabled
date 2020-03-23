@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/FactionDef[defName="OutlanderCivil"]</xpath>
+		<value>
+			<li Class="MSFHostility.ModExtension">
+				<letter>NeutralEvent</letter>
+				<delayDaysMin>1.5</delayDaysMin>
+				<delayDaysMax>3</delayDaysMax>
+				<repOffset>200</repOffset>
+				<labelKey>RH_MSFHostilityText_Label</labelKey>
+				<textKey>RH_MSFHostilityText_Text</textKey>
+			</li>
+		</value>
+	</Operation>
+</Patch>

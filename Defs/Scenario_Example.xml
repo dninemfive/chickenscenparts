@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef>
+    <defName>ScenPartTest</defName>
+    <label>Chicken ScenPart Test</label>
+    <description>Scenario for testing and demonstrating the features of Chicken ScenParts.</description>
+    <scenario>
+      <summary>.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>PlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>5</pawnCount>
+          <pawnChoiceCount>5</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+          <visible>false</visible>
+        </li>
+        
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_BoltActionRifle</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_Revolver</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Knife</thingDef>
+          <stuff>Plasteel</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakPants</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakVest</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_AdvancedHelmet</thingDef>
+          <stuff>Plasteel</stuff>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>      
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>720</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>7</count>
+        </li>
+        
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+		
+		<!-- Faction Relations ScenPart -->
+		<li Class="ChickenScenParts.ScenPart_FactionRelations">
+			<def>ChickenScenParts_FactionRelations</def>
+			<sendHostilityLetter>false</sendHostilityLetter> <!-- if true, could result in double-sending letters. I assume any letter which will cause hostility will make that clear. -->
+			<ticksPerPulse>15000</ticksPerPulse> <!-- four times a day -->
+			<factions>
+				<li>
+					<factionDef>Pirate</factionDef>
+					<letterDef>NegativeEvent</letterDef>
+					<letterLabelKey>RH_RelLabel_PlayerFaction_Pirate</letterLabelKey>
+					<letterTextKey>RH_RelText_PlayerFaction_Pirate</letterTextKey>
+					<delayDaysMin>0.5</delayDaysMin>
+					<delayDaysMax>1.5</delayDaysMax>
+					<repOffset>-80~-40</repOffset>
+				</li>
+				<li>
+					<factionDef>TribeCivil</factionDef>
+					<letterDef>PositiveEvent</letterDef>
+					<letterLabelKey>RH_RelLabel_PlayerFaction_TribeCivil</letterLabelKey>
+					<letterTextKey>RH_RelText_PlayerFaction_TribeCivil</letterTextKey>
+					<delayDaysMin>0</delayDaysMin>
+					<delayDaysMax>3</delayDaysMax>
+					<repOffset>5~20</repOffset>
+				</li>
+			</factions>
+		</li>
+		
+		<!-- Provisions ScenPart -->
+		<li Class="ChickenScenParts.ScenPart_Provisioner">
+			<def>ChickenScenParts_Provisioner</def>
+			<dropIntervalDays>1.1</dropIntervalDays>
+			<endAfterDays>3.5</endAfterDays>
+			<chanceToNotDrop>0.5</chanceToNotDrop>
+			<dropThings>
+				<MedicineIndustrial>5</MedicineIndustrial>
+				<MealSurvivalPack>10</MealSurvivalPack>
+			</dropThings>
+			<!-- start letter settings -->
+			<startLetterLabelKey>RH_ProLabel_PlayerFaction_Start</startLetterLabelKey>
+			<startLetterTextKey>RH_ProText_PlayerFaction_Start</startLetterTextKey>
+			<startLetterDef>PositiveEvent</startLetterDef>
+			<!-- end letter settings -->
+			<endLetterLabelKey>RH_ProLabel_PlayerFaction_End</endLetterLabelKey>
+			<endLetterTextKey>RH_ProText_PlayerFaction_End</endLetterTextKey>
+			<endLetterDef>PositiveEvent</endLetterDef>
+			<!-- drop/no drop message text -->
+			<dropMessageKey>RH_ProMsg_PlayerFaction_Drop</dropMessageKey>
+			<noDropMessageKey>RH_ProMsg_PlayerFaction_NoDrop</noDropMessageKey>
+		</li>
+        
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

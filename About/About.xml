@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Chicken ScenParts</name>
+  <author>dninemfive</author>
+  <supportedVersions><li>1.1</li></supportedVersions>
+  <packageId>dninemfive.ChickenPlucker.ChickenScenParts</packageId>
+  <description>Two useful ScenParts:\n\n- ScenPart_Provisioner, which sends care packages to you;\n\n-ScenPart_FactionRelations, which makes factions send you letters</description>
+</ModMetaData>

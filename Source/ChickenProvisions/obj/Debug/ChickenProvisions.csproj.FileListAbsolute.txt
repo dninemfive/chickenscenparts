@@ -1,0 +1,41 @@
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\ChickenProvisions.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\ChickenProvisions.pdb
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\Assembly-CSharp.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\UnityEngine.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\NAudio.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\NVorbis.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\bin\Debug\UnityEngine.UI.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\obj\Debug\ChickenProvisions.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\obj\Debug\ChickenProvisions.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\obj\Debug\ChickenProvisions.csproj.CopyComplete
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\obj\Debug\ChickenProvisions.dll
+C:\Users\dninemfive\Documents\Visual Studio 2017\Projects\ChickenProvisions\ChickenProvisions\obj\Debug\ChickenProvisions.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\ChickenProvisions.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\ChickenProvisions.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\obj\Debug\ChickenProvisions.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\obj\Debug\ChickenProvisions.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\obj\Debug\ChickenProvisions.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\obj\Debug\ChickenProvisions.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Chicken Provisions\Source\ChickenProvisions\obj\Debug\ChickenProvisions.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\ChickenScenParts.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\ChickenScenParts.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\Assembly-CSharp.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\NAudio.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\NVorbis.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\UnityEngine.UI.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\UnityEngine.SharedInternalsModule.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\bin\Debug\UnityEngine.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\obj\Debug\ChickenProvisions.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\obj\Debug\ChickenProvisions.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\obj\Debug\ChickenProvisions.csproj.CopyComplete
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\obj\Debug\ChickenScenParts.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_collab\_Chicken\Chicken ScenParts\Source\ChickenProvisions\obj\Debug\ChickenScenParts.pdb
